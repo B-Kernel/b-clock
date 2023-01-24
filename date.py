@@ -1,2 +1,3 @@
-import date
-print(f"The Current Date is: date.today()")
+import datetime
+date = datetime.datetime.now()
+print("CURRENT TIME: " + str(date))
